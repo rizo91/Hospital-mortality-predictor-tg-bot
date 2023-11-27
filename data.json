@@ -1,0 +1,256 @@
+{
+	"common_info":
+		{
+			"button_text": "Общая информация",
+			"criteria":
+				[
+					{
+						"callback_data": "age",
+						"button_text": "Возраст",
+						"accusative_form": "возраст"
+					},
+					{
+						"callback_data": "gender",
+						"button_text": "Пол",
+						"accusative_form": "пол (0 - мужской, 1 - женский)"
+					},
+					{
+						"callback_data": "BMI",
+						"button_text": "Индекс массы тела",
+						"accusative_form": "индекс массы тела"
+					}
+				]
+		},
+
+	"chronic_diseases":
+		{
+			"button_text": "Хронические заболевания \n1-есть, 0-нет",
+			"criteria":
+				[
+					{
+						"callback_data": "hypertensive",
+						"button_text": "Гипертония",
+						"accusative_form": "1-если есть, 0 - если нет гипертонии"
+					},
+					{
+						"callback_data": "atrialfibrillation",
+						"button_text": "Мерцательная аритмия",
+						"accusative_form": "1-если есть, 0 - если нет мерцательной аритмии"
+					},
+					{
+						"callback_data": "diabetes",
+						"button_text": "Диабет",
+						"accusative_form": "1-если есть, 0 - если нет диабета"
+					},
+					{
+						"callback_data": "deficiencyanemias",
+						"button_text": "Дефицитные анемии",
+						"accusative_form": "1-если есть, 0 - если нет анемии"
+					},
+					{
+						"callback_data": "depression",
+						"button_text": "Депрессия",
+						"accusative_form": "1-если есть, 0 - если нет депрессии"
+					},
+					{
+						"callback_data": "hyperlipemia",
+						"button_text": "Гиперлипидемия",
+						"accusative_form": "1-если есть, 0 - если нет гиперлипидемии"
+					},
+					{
+						"callback_data": "renal_failure",
+						"button_text": "Почечная недостаточность",
+						"accusative_form": "1-если есть, 0 - если нет почечной недостаточности"
+					},
+					{
+						"callback_data": "COPD",
+						"button_text": "ХОБЛ",
+						"accusative_form": "1-если есть, 0 - если нет ХОБЛ"
+					}
+				]
+		},
+	"Vital_indicators":
+		{
+			"button_text": "Жизненные показатели",
+			"criteria":
+				[
+					{
+						"callback_data": "heart_rate",
+						"button_text": "ЧСС",
+						"accusative_form": "ЧСС"
+					},
+					{
+						"callback_data": "EF",
+						"button_text": "Фракция выброса",
+						"accusative_form": "Фракция выброса"
+					},
+					{
+						"callback_data": "syst_blood_press",
+						"button_text": "Сист.АД",
+						"accusative_form": "Сист.АД"
+					},
+					{
+						"callback_data": "diast_blood_press",
+						"button_text": "Диаст.АД",
+						"accusative_form": "Диаст.АД"
+					},
+					{
+						"callback_data": "respiratory_rate",
+						"button_text": "ЧД",
+						"accusative_form": "ЧД"
+					},
+					{
+						"callback_data": "SP_O2",
+						"button_text": "SP_O2",
+						"accusative_form": "SP_O2"
+					},
+					{
+						"callback_data": "PCO2",
+						"button_text": "PCO2",
+						"accusative_form": "PCO2"
+					},
+					{
+						"callback_data": "diuresis",
+						"button_text": "Диурез в мл.",
+						"accusative_form": "Диурез в мл."
+					}
+				]
+		},
+	"Laboratory_indicators":
+		{
+			"button_text": "Лабораторные показатели",
+			"criteria":
+				[
+					{
+						"callback_data": "hematocrit",
+						"button_text": "Гематокрит",
+						"accusative_form": "Значение гематокрита"
+					},
+					{
+						"callback_data": "RBC",
+						"button_text": "Эритроциты - RBC",
+						"accusative_form": "Значение эритроцитов"
+					},
+					{
+						"callback_data": "MCH",
+						"button_text": "MCH",
+						"accusative_form": "Значение MCH"
+					},
+					{
+						"callback_data": "MCHC",
+						"button_text": "MCHC",
+						"accusative_form": "Значение MCHC"
+					},
+					{
+						"callback_data": "MCV",
+						"button_text": "MCV",
+						"accusative_form": "Значение MCV"
+					},
+					{
+						"callback_data": "RDW",
+						"button_text": "RDW",
+						"accusative_form": "Значение RDW"
+					},
+					{
+						"callback_data": "leucocyte",
+						"button_text": "Лейкоциты WBC",
+						"accusative_form": "Значение Лейкоцитов(WBC)"
+					},
+					{
+						"callback_data": "platelets",
+						"button_text": "Тромбоциты- PLT",
+						"accusative_form": "Значение Тромбоцитов(PLT)"
+					},
+					{
+						"callback_data": "neutrophils",
+						"button_text": "Нейтрофилы",
+						"accusative_form": "Значение нейтрофилов"
+					},
+					{
+						"callback_data": "basophils",
+						"button_text": "Базофилы",
+						"accusative_form": "Значение Базофилов"
+					},
+					{
+						"callback_data": "lymphocyte",
+						"button_text": "Лимфоциты",
+						"accusative_form": "Значение Лимфоцитов"
+					},
+					{
+						"callback_data": "PT",
+						"button_text": "Протромбиновое время - сек.",
+						"accusative_form": "Значение Протромбиновое время - сек."
+					},
+					{
+						"callback_data": "MNO",
+						"button_text": "МНО",
+						"accusative_form": "Значение МНО"
+					},
+					{
+						"callback_data": "NT_proBNP",
+						"button_text": "Мозговой натрийуретический гормон",
+						"accusative_form": "Значение мозгового натрийуретического гормона"
+					},
+					{
+						"callback_data": "creatine_kinase",
+						"button_text": "Креатининкиназа",
+						"accusative_form": "Значение Креатининкиназы"
+					},
+					{
+						"callback_data": "creatinine",
+						"button_text": "Креатинин",
+						"accusative_form": "Значение Креатинина"
+					},
+					{
+						"callback_data": "urea_nitrogen",
+						"button_text": "Мочевина",
+						"accusative_form": "Значение Мочевины"
+					},
+					{
+						"callback_data": "blood_Gluc",
+						"button_text": "Глюкоза",
+						"accusative_form": "Значение Глюкозы - Glu"
+					},
+					{
+						"callback_data": "blood_K",
+						"button_text": "Калий",
+						"accusative_form": "Значение Калия - K"
+					},
+					{
+						"callback_data": "blood_Na",
+						"button_text": "Натрий",
+						"accusative_form": "Значение Натрия - Na"
+					},
+					{
+						"callback_data": "blood_Ca",
+						"button_text": "Кальций",
+						"accusative_form": "Значение Кальция - Ca"
+					},
+					{
+						"callback_data": "blood_Cl",
+						"button_text": "Хлор",
+						"accusative_form": "Значение Хлорa - Cl"
+					},
+					{
+						"callback_data": "anion_gap",
+						"button_text": "Магний",
+						"accusative_form": "Значение Магния"
+					},
+					{
+						"callback_data": "PH",
+						"button_text": "PH",
+						"accusative_form": "Значение PH"
+					},
+					{
+						"callback_data": "bicarbonate",
+						"button_text": "bicarbonate",
+						"accusative_form": "Значение Бикарбонатов"
+					},
+					{
+						"callback_data": "lactic_acid",
+						"button_text": "Молочная кислота",
+						"accusative_form": "Значение Молочной кислоты"
+					}
+				]
+		}
+}
