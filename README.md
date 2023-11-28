@@ -1,5 +1,5 @@
 ## Hello, my name is Rizo Rasulov.
-#### I am a developer with a background in Medical Science and years of work experience in medical institutions as a pediatrician. This is my pet project on a medical topic, in which I wanted to explore the possibilities of applying machine learning to the healthcare sector.
+#### I am a ml-developer with a background in Medical Science and years of work experience in medical institutions as a pediatrician. This is my pet project on a medical topic, in which I wanted to explore the possibilities of applying machine learning to the healthcare sector.
 #### My project is a Telegram bot that uses a neural network trained on data from 1000 intensive care patients (https://physionet.org/content/mimiciii/1.4/). It predicts the likelihood of a favorable (or not-so-favorable) outcome for a patient in the intensive care unit.
 ### Telegram bot tag: @Mort_Hospit_bot
 ## To get started you will need the following:
