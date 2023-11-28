@@ -1,29 +1,29 @@
-## Привет, меня зовут Ризо Расулов.
-#### Я врач-педиатр, а данный пет-проект на медицинскую тематику, в нем я хотел показать возможности машинного обучения, для общественно полезных целей.
-#### Это телеграм бот, который при помощи нейронной сети, обученной на данных 1000 пациентов реанимации (https://physionet.org/content/mimiciii/1.4/) предсказывает вероятность благоприятного (или не очень) исхода надождения пациента в отделении реанимации.
-### Сам телеграм бот: @Mort_Hospit_bot
-## Для запуска вам понадобится:
-* получить свой token у BotFather в телеграм и вставить его в файл token.txt.
-* Установить необхходимые библиотеки из requirements.txt командой:
- > pip install -r requirements.txt 
+## Hello, my name is Rizo Rasulov.
+#### I am a pediatrician, and this is my pet project on a medical topic, in which I wanted to show the possibilities of machine learning for socially useful purposes.
+#### This is a telegram bot that, using a neural network trained on data from 1000 intensive care patients (https://physionet.org/content/mimiciii/1.4/), predicts the likelihood of a favorable (or not so favorable) outcome for a patient in the intensive care unit .
+### Telegram bot tag: @Mort_Hospit_bot
+## To start you will need:
+* get your token from BotFather in telegram and paste it into the token.txt file.
+* Install the necessary libraries from requirements.txt with the command:
+  > pip install -r requirements.txt
 
-* создать Docker образ из приложенного Dockerfile:
- > Docker build
+* create a Docker image from the attached Dockerfile:
+  > Docker build
 
-## Обучение модели:
+## Model training:
 
-#### Этапы обучения модели описаны в файле mimic_tensorflow_survive-Copy1.ipynb
+#### The stages of model training are described in the file mimic_tensorflow_survive-Copy1.ipynb
 
-* В начале ноутбука присутствует переменная path в ней нужно указать путь к проекту
-* В конце сохранение/загрузка модели. (в данном проекте загруженная модель находится в папке saved_model)
+* At the beginning of the notebook there is a path variable; in it you need to specify the path to the project
+* At the end, saving/loading the model. (in this project, the loaded model is located in the saved_model folder)
 
-## Взаимодействие с пользователем:
+## User interaction:
 
-Реализовано при помощи 2 уровневого меню, разделенное на 4 части:
+Implemented using a 2-level menu, divided into 4 parts:
 
-* общая информация (пол/возраст - обязательны для ввода/Индекс Массы тела)
-* Наличие хронических заболеваний.
-* Витальные показатели (ЧСС/ЧД/...)
-* Лабораторные показатели.
+* general information (gender/age - required to enter/Body Mass Index)
+* Presence of chronic diseases.
+* Vital indicators (HR/RR/...)
+* Laboratory indicators.
 
-Если какая-то информация о пациенте неизвестна, она будет заполнена медианным значением выборки на которой обучалась модель (mimic_data.csv). Что повлияет на результат.
+If some information about the patient is unknown, it will be filled with the median value of the sample on which the model was trained (mimic_data.csv). What will affect the result.
