@@ -77,42 +77,42 @@
 					{
 						"callback_data": "heart_rate",
 						"button_text": "ЧСС",
-						"accusative_form": "ЧСС"
+						"accusative_form": "ЧСС (медиана - 83.0)"
 					},
 					{
 						"callback_data": "EF",
 						"button_text": "Фракция выброса",
-						"accusative_form": "Фракция выброса"
+						"accusative_form": "Фракция выброса (медиана - 55.0)"
 					},
 					{
 						"callback_data": "syst_blood_press",
 						"button_text": "Сист.АД",
-						"accusative_form": "Сист.АД"
+						"accusative_form": "сист.АД (медиана - 115.8)"
 					},
 					{
 						"callback_data": "diast_blood_press",
 						"button_text": "Диаст.АД",
-						"accusative_form": "Диаст.АД"
+						"accusative_form": "диаст.АД (медиана - 58.4)"
 					},
 					{
 						"callback_data": "respiratory_rate",
 						"button_text": "ЧД",
-						"accusative_form": "ЧД"
+						"accusative_form": "ЧД (медиана - 20.4)"
 					},
 					{
 						"callback_data": "SP_O2",
 						"button_text": "SP_O2",
-						"accusative_form": "SP_O2"
+						"accusative_form": "SP_O2 (медиана - 96.4)"
 					},
 					{
 						"callback_data": "PCO2",
 						"button_text": "PCO2",
-						"accusative_form": "PCO2"
+						"accusative_form": "PCO2 (медиана - 39.0)"
 					},
 					{
 						"callback_data": "diuresis",
 						"button_text": "Диурез в мл.",
-						"accusative_form": "Диурез в мл."
+						"accusative_form": "диурез в мл. (медиана - 1630.0)"
 					}
 				]
 		},
@@ -124,132 +124,137 @@
 					{
 						"callback_data": "hematocrit",
 						"button_text": "Гематокрит",
-						"accusative_form": "Значение гематокрита"
+						"accusative_form": "Значение гематокрита (медиана - 30.8)"
 					},
 					{
 						"callback_data": "RBC",
 						"button_text": "Эритроциты - RBC",
-						"accusative_form": "Значение эритроцитов"
+						"accusative_form": "Значение эритроцитов (медиана - 3.5)"
 					},
 					{
 						"callback_data": "MCH",
 						"button_text": "MCH",
-						"accusative_form": "Значение MCH"
+						"accusative_form": "Значение MCH (медиана - 29.8)"
 					},
 					{
 						"callback_data": "MCHC",
 						"button_text": "MCHC",
-						"accusative_form": "Значение MCHC"
+						"accusative_form": "Значение MCHC (медиана - 33.0)"
 					},
 					{
 						"callback_data": "MCV",
 						"button_text": "MCV",
-						"accusative_form": "Значение MCV"
+						"accusative_form": "Значение MCV (медиана - 90.0)"
 					},
 					{
 						"callback_data": "RDW",
 						"button_text": "RDW",
-						"accusative_form": "Значение RDW"
+						"accusative_form": "Значение RDW (медиана - 15.5)"
 					},
 					{
 						"callback_data": "leucocyte",
 						"button_text": "Лейкоциты WBC",
-						"accusative_form": "Значение Лейкоцитов(WBC)"
+						"accusative_form": "Значение Лейкоцитов(WBC) (медиана - 9.7)"
 					},
 					{
 						"callback_data": "platelets",
 						"button_text": "Тромбоциты- PLT",
-						"accusative_form": "Значение Тромбоцитов(PLT)"
+						"accusative_form": "Значение Тромбоцитов(PLT) (медиана - 222.7)"
 					},
 					{
 						"callback_data": "neutrophils",
 						"button_text": "Нейтрофилы",
-						"accusative_form": "Значение нейтрофилов"
+						"accusative_form": "Значение нейтрофилов (медиана - 80.5)"
 					},
 					{
 						"callback_data": "basophils",
 						"button_text": "Базофилы",
-						"accusative_form": "Значение Базофилов"
+						"accusative_form": "Значение Базофилов (медиана - 0.2)"
 					},
 					{
 						"callback_data": "lymphocyte",
 						"button_text": "Лимфоциты",
-						"accusative_form": "Значение Лимфоцитов"
+						"accusative_form": "Значение Лимфоцитов (медиана - 9.2)"
 					},
 					{
 						"callback_data": "PT",
 						"button_text": "Протромбиновое время - сек.",
-						"accusative_form": "Значение Протромбиновое время - сек."
+						"accusative_form": "Значение Протромбиновое время - сек. (медиана - 14.6)"
 					},
 					{
 						"callback_data": "MNO",
 						"button_text": "МНО",
-						"accusative_form": "Значение МНО"
+						"accusative_form": "Значение МНО (медиана - 1.3)"
 					},
 					{
 						"callback_data": "NT_proBNP",
 						"button_text": "Мозговой натрийуретический гормон",
-						"accusative_form": "Значение мозгового натрийуретического гормона"
+						"accusative_form": "Значение мозгового натрийуретического гормона (медиана - 5840.0)"
 					},
 					{
 						"callback_data": "creatine_kinase",
 						"button_text": "Креатининкиназа",
-						"accusative_form": "Значение Креатининкиназы"
+						"accusative_form": "Значение Креатининкиназы (медиана - 72.7)"
 					},
 					{
 						"callback_data": "creatinine",
 						"button_text": "Креатинин",
-						"accusative_form": "Значение Креатинина"
+						"accusative_form": "Значение Креатинина (медиана - 1.3)"
 					},
 					{
 						"callback_data": "urea_nitrogen",
 						"button_text": "Мочевина",
-						"accusative_form": "Значение Мочевины"
+						"accusative_form": "Значение Мочевины (медиана - 30.7)"
 					},
 					{
 						"callback_data": "blood_Gluc",
 						"button_text": "Глюкоза",
-						"accusative_form": "Значение Глюкозы - Glu"
+						"accusative_form": "Значение Глюкозы - Glu (медиана - 135.6)"
 					},
 					{
 						"callback_data": "blood_K",
 						"button_text": "Калий",
-						"accusative_form": "Значение Калия - K"
+						"accusative_form": "Значение Калия - K (медиана - 4.1)"
 					},
 					{
 						"callback_data": "blood_Na",
 						"button_text": "Натрий",
-						"accusative_form": "Значение Натрия - Na"
+						"accusative_form": "Значение Натрия - Na (медиана - 139.2)"
 					},
 					{
 						"callback_data": "blood_Ca",
 						"button_text": "Кальций",
-						"accusative_form": "Значение Кальция - Ca"
+						"accusative_form": "Значение Кальция - Ca (медиана - 8.5)"
 					},
 					{
 						"callback_data": "blood_Cl",
 						"button_text": "Хлор",
-						"accusative_form": "Значение Хлорa - Cl"
+						"accusative_form": "Значение Хлорa - Cl (медиана - 102.5)"
+					},
+					{
+						"callback_data": "blood_Mg",
+						"button_text": "Магний",
+						"accusative_form": "Значение Магния (медиана - 2.1)"
 					},
 					{
 						"callback_data": "anion_gap",
-						"button_text": "Магний",
-						"accusative_form": "Значение Магния"
+						"button_text": "Анионная разница",
+						"accusative_form": "Значение anion gap (медиана - 13.7)"
 					},
 					{
 						"callback_data": "PH",
 						"button_text": "PH",
-						"accusative_form": "Значение PH"
+						"accusative_form": "Значение PH (медиана - 7.4)"
 					},
 					{
 						"callback_data": "bicarbonate",
 						"button_text": "bicarbonate",
-						"accusative_form": "Значение Бикарбонатов"
+						"accusative_form": "Значение Бикарбонатов (медиана - 26.5)"
 					},
 					{
 						"callback_data": "lactic_acid",
 						"button_text": "Молочная кислота",
-						"accusative_form": "Значение Молочной кислоты"
+						"accusative_form": "Значение Молочной кислоты (медиана - 1.4)"
 					}
 				]
 		}
