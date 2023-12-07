@@ -1,3 +1,5 @@
+import string
+
 from telegram.ext import ApplicationBuilder, filters, \
                          CallbackQueryHandler, CommandHandler, MessageHandler
 from handlers import *
